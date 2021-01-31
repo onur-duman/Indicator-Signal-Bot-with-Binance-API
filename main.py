@@ -1,4 +1,5 @@
 from views.api import API
+from indicators.indicators import Indicators
 
 if __name__ == "__main__":
     # Connect to API
@@ -20,3 +21,13 @@ if __name__ == "__main__":
 
     # Its Open Values
     print(crypto_currency.open_values)
+
+    # RSI Scores
+    rsi = Indicators.RSI(crypto_currency)
+
+    # MACD Scores
+    macd, macdsignal, macdhist = Indicators.MACD(crypto_currency)
+
+
+
+

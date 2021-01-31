@@ -2,7 +2,6 @@ from binance.client import Client
 from api.api_base import ApiBase
 from models.crypto_currency import CryptoCurrency
 
-
 class Binance(ApiBase):
     client = ""
     def __init__(self, api_key="Key", api_secret="Secret"):
