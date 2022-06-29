@@ -25,8 +25,7 @@ if __name__ == "__main__":
     # RSI Scores
     rsi = Indicators.RSI(crypto_currency)
 
-    # MACD Scores
-    macd, macdsignal, macdhist = Indicators.MACD(crypto_currency)
+
 
 
 
